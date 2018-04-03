@@ -20,6 +20,16 @@
 		<script src="files/js/highlight.js"></script>
 		<!-- TOC 自动目录 -->
 		<script src="files/js/toc.js"></script>
+		<!-- latex 支持-->
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({
+				tex2jax: {
+					inlineMath: [['$','$'], ['\\(','\\)']]
+				}
+			});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 		<script>
 			// 获取 get 参数的函数
 			function QueryGET(TheName){
